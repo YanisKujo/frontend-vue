@@ -32,20 +32,19 @@
 ## ⚙️ Installation
 
 ### 1. Cloner le projet frontend
-```bash
+```
 git clone https://github.com/YanisKujo/frontend-vue.git
 cd frontend-vue
 npm install
-2. Lancer le frontend
-```bash
-Copier
-Modifier
+````
+### 2. Lancer le frontend
+```
 npm run dev
-Assurez-vous que le backend (API Symfony) est démarré et disponible sur https://localhost
+```
+Assurez-vous que le backend (API Symfony) est démarré et disponible sur https://localhost (le certif SSL est expiré, il faut valider le fait de continuer sur le site avant d'utiliser le Front)
 
-🧪 Lancer les tests Cypress
-```bash
-Copier
-Modifier
+### 3.🧪 Lancer les tests Cypress
+```
 npx cypress open
+```
 Les tests couvrent tout le parcours utilisateur : inscription, connexion, création/modification/suppression de contenu et commentaires, mise à jour du profil.
