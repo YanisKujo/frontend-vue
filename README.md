@@ -1,5 +1,3 @@
-# 🖥️ CMS Vue.js - Projet MMI
-
 ## 👤 Réalisé par : **Yanis Rechrach**
 
 ## 📦 Dépôts GitHub
