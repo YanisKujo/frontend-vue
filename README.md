@@ -15,7 +15,7 @@
 - Gestion de contenus (CRUD)
 - Ajout, modification, suppression de commentaires
 - Upload d'image pour chaque contenu
-- Interface utilisateur moderne
+- Admin dashboard pour gérer les Users et Contenus
 - Tests automatisés via Cypress
 
 ---
@@ -37,14 +37,14 @@ git clone https://github.com/YanisKujo/frontend-vue.git
 cd frontend-vue
 npm install
 2. Lancer le frontend
-bash
+```bash
 Copier
 Modifier
 npm run dev
 Assurez-vous que le backend (API Symfony) est démarré et disponible sur https://localhost
 
 🧪 Lancer les tests Cypress
-bash
+```bash
 Copier
 Modifier
 npx cypress open
